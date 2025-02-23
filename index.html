@@ -6,9 +6,21 @@
     <title>Senzy Hosting</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        body {
+            background: url('background.jpg') no-repeat center center fixed;
+            background-size: cover;
+        }
+        .transparent-box {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 10px;
+            padding: 20px;
+        }
+    </style>
 </head>
-<body class="bg-blue-900 flex flex-col items-center justify-center min-h-screen text-white">
-    <div class="bg-blue-800 bg-opacity-75 rounded-lg p-6 mt-6 w-full max-w-md text-center">
+<body class="flex flex-col items-center justify-center min-h-screen text-white">
+    <div class="transparent-box w-full max-w-md text-center">
         <img alt="Logo" class="mx-auto mb-4" height="100" src="https://files.catbox.moe/je3qxj.jpg" width="100"/>
         <div class="mb-4 flex justify-center space-x-4">
             <a href="https://youtube.com" target="_blank" class="text-red-600 text-3xl"><i class="fab fa-youtube"></i></a>
@@ -20,8 +32,8 @@
         </div>
         <div id="itemContainer" class="space-y-4 max-h-64 overflow-y-auto">
             <a href="https://example.com" class="block w-full py-2 bg-gray-600 bg-opacity-75 rounded-lg text-center">ALL SC (ENC)</a>
-            <a href="https://example.com" class="block w-full py-2 bg-gray-600 bg-opacity-75 rounded-lg text-center">ALL SC (NO ENC)</a>
-            <a href="https://senzyimup.github.io/senzystore/" class="block w-full py-2 bg-gray-600 bg-opacity-75 rounded-lg text-center">PRODUK</a>
+            <a href="https://example.com" class="block w-full py-2 bg-gray-600 bg-opacity-75 rounded-lg text-center">ALL SC (MO ENC)</a>
+            <a href="https://example.com" class="block w-full py-2 bg-gray-600 bg-opacity-75 rounded-lg text-center">PRODUK</a>
         </div>
         <div id="noResults" class="hidden mt-4 text-gray-400">Hasil tidak ditemukan</div>
         <div class="mt-6 text-gray-400">&copy; PAID PROMOTE</div>
